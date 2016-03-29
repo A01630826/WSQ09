@@ -1,0 +1,18 @@
+ans=1
+while (ans==1):
+    acum=1
+
+    x=int(input("Ingrese el numero del factorial que desea"))
+
+    for a in range (x,0,-1):
+        if a ==1:
+            print(a,end="")
+        else:
+            print(a,end="*")
+        acum*=a
+
+    print("=",acum)
+
+    ans=int(input("Desea hacerlo de nuevo? \n1.- si \n2.-no"))
+
+print("byebye")
